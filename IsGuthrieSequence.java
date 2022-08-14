@@ -1,0 +1,15 @@
+
+package isguthriesequence;
+
+
+public class IsGuthrieSequence {
+
+   
+    public static void main(String[] args) {
+         System.out.println(GuthrieSequence.isGuthrieSequence(new int[]{8, 4, 2, 1}));
+        System.out.println(GuthrieSequence.isGuthrieSequence(new int[]{8, 17, 4, 1}));
+        System.out.println(GuthrieSequence.isGuthrieSequence(new int[]{8, 4, 1}));
+        System.out.println(GuthrieSequence.isGuthrieSequence(new int[]{8, 4, 2}));
+    }
+    
+}
